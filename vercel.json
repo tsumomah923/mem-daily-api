@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/daily-mem.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/daily-mem",
+      "dest": "/api/daily-mem.js"
+    }
+  ]
+}
