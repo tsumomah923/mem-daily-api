@@ -1,17 +1,8 @@
 {
   "name": "mem-daily-api",
   "version": "1.0.0",
-  "description": "Daily memory API for Vercel",
-  "main": "api/daily-mem.js",
+  "private": true,
   "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'No build step required'",
-    "start": "node api/daily-mem.js"
-  },
-  "dependencies": {
-    "@vercel/node": "^3.0.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "start": "node api/hello.js"
   }
 }
