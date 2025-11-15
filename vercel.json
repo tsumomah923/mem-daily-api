@@ -1,15 +1,11 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "api/daily-mem.js",
-      "use": "@vercel/node"
+  "functions": {
+    "api/daily-mem.js": {
+      "runtime": "nodejs18.x"
+    },
+    "api/notion.js": {
+      "runtime": "nodejs18.x"
     }
-  ],
-  "routes": [
-    {
-      "src": "/api/daily-mem",
-      "dest": "/api/daily-mem.js"
-    }
-  ]
+  }
 }
