@@ -1,9 +1,5 @@
 {
   "name": "mem-daily-api",
   "version": "1.0.0",
-  "main": "api/daily-mem.js",
-  "license": "MIT",
-  "scripts": {
-    "start": "node api/daily-mem.js"
-  }
+  "private": true
 }
